@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+  <!-- début PARTIE COMMUNE 1-->
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Chloé Tocabens</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.cdnfonts.com/css/seravek-medium" rel="stylesheet">
+	  <link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
+	  <link href="color/default.css" rel="stylesheet">
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                  <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="accueil.html">
+                  <h1>Chloé Tocabens</h1>
+              </a>
+          </div>
+
+          <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="accueil.html">Accueil</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Séries personnelles <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="recueilcorps.html">Recueil de corps</a></li>
+                  <li><a href="corpssombre.html">Corps sombre</a></li>
+                  <li><a href="didymoi.html">Didymoi, dis, dis moi</a></li>
+                  <li><a href="transport.html">Vision parallèle I</a></li>
+                  <li><a href="errance.html">Vision parallèle II</a></li>
+                </ul>
+              </li>
+              <li class><a href="portraits.html">Portraits</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reportages <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="musicien.html">Musiciens</a></li>
+                  <li><a href="compagnieokto.html">Résidence de la compagnie Okto</a></li>
+                  <li><a href="spectacleperte.html">Spectacle Perte</a></li>
+                  <li><a href="kinesio.html">Aude Kinésiologue</a></li>
+                  <li><a href="ameliapeyron.html">Maison Amelia Peyron</a></li>
+                  <li><a href="deauville.html">Planches de Deauville</a></li>
+                  <li><a href="jardindesplantes.html">Jardin des plantes</a></li>
+                </ul>
+              </li>
+              <li><a href="video.html">Vidéo</a></li>
+              <li><a href="biographie.html">Biographie</a></li>
+      		    <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- fin PARTIE COMMUNE 1-->
+
+
+
+	<!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+		<!--<div class="heading-contact">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Get in touch</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>-->
+		<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="boxed-grey">
+                <form id="contact-form" method="post" data-netlify="true" name="contactForm" action="/success.html">
+                  <fieldset>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Nom et prénom</label>
+                            <input type="text" class="form-control" id="name" placeholder="" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Adresse Mail</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Objet</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choisir un objet:</option>
+                                <option value="devis">Devis</option>
+                                <option value="question">Tirages</option>
+                                <option value="question">Question</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-skin pull-right submit" id="btnContactUs">
+                            Envoyer</button>
+                    </div>
+                </div>
+              </fieldset>
+                </form>
+            </div>
+        </div>
+
+		<div class="col-lg-4">
+			<div class="widget-contact">
+				<h5>Coordonnées</h5>
+
+				<address>
+				  <strong>Chloé Tocabens</strong><br>
+				  Basée à Paris
+				</address>
+
+				<address>
+				  <strong>Email</strong><br>
+				  <a href="mailto:#">chloetocabens.photographie@gmail.com</a>
+				</address>
+				<address>
+				  <strong>Sur les réseaux sociaux...</strong><br>
+                       	<ul class="company-social">
+                            <li class="social-facebook"><a href="https://www.facebook.com/Chloetocabens.photographie" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-instagram"><a href="https://www.instagram.com/chloetocabens.photographie/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <!--<li class="social-dribble"><a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li>-->
+                            <li class="social-instagram"><a href="https://www.instagram.com/chloetocabens/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                        </ul>
+				</address>
+
+			</div>
+		</div>
+    </div>
+
+		</div>
+	</section>
+	<!-- /Section: contact -->
+
+<!-- début PARTIE COMMUNE 2 -->
+
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
+<!-- fin PARTIE COMMUNE 2 -->
